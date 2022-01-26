@@ -1,0 +1,37 @@
+name: Zircon
+type: theme
+base theme: classy
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout with Drupal 9 support.'
+package: Core
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+libraries:
+  - zircon/global-styling
+
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  main_menu: 'Main menu'
+  slideshow: Slideshow
+  help: Help
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  messages: Messages
+  featured: Featured
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  panel_first_1: 'Panel first col 1'
+  panel_second_1: 'Panel second col 1'
+  panel_second_2: 'Panel second col 2'
+  panel_second_3: 'Panel second col 3'
+  panel_second_4: 'Panel second col 4'
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2022-01-22
+version: '9.1.x-dev'
+project: 'zircon'
+datestamp: 1642855570
